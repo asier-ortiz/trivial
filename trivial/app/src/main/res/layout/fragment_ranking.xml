@@ -1,0 +1,39 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/indexCL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.main.RankingFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rankingRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="true"
+        android:nestedScrollingEnabled="false"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/list_item_score" />
+
+    <TextView
+        android:id="@+id/emptyRankingTV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/mp_xl"
+        android:layout_marginEnd="@dimen/mp_xl"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/empty_ranking"
+        android:textColor="@color/colorBlackLight"
+        android:textSize="@dimen/text_xxl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

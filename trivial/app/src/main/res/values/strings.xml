@@ -1,0 +1,25 @@
+<resources>
+    <!--App-->
+    <string name="app_name">Trivial</string>
+    <string name="correct">¡Correcto!</string>
+    <string name="empty_ranking">Todavía no se ha registrado ninguna puntuación.\n¡Se tú el primero!</string>
+    <string name="end_game">Fin de juego</string>
+    <string name="exit">¿Desea Salir?</string>
+    <string name="incorrect">¡Incorrecto!</string>
+    <string name="name">Nombre</string>
+    <string name="name_required">El nombre está vacío</string>
+    <string name="new_game">Nueva partida</string>
+    <string name="new_game_tip">¡Demuestra lo que sabes y colócate en lo más alto del ranking!</string>
+    <string name="question_number">Pregunta nº%1$d</string>
+    <string name="ranking">Ranking</string>
+    <string name="remaining_time">%1$.2fs</string>
+    <string name="result_1">Tu puntuación ha sido:</string>
+    <string name="result_2">Y tu posición:</string>
+    <string name="result_no_podium">No has alcanzado el podio, ¡inténtalo de nuevo!</string>
+    <string name="result_bronze">¡Enhorabuena! Has quedado el tercero, te has ganado esta medalla de bronce:</string>
+    <string name="result_silver">¡Enhorabuena! Has quedado el segundo, te has ganado esta medalla de plata:</string>
+    <string name="result_gold">¡Enhorabuena! Has quedado el primero, te has ganado esta medalla de oro:</string>
+    <string name="time_out">¡Se acabó el tiempo!</string>
+    <string name="yes">Sí</string>
+
+</resources>

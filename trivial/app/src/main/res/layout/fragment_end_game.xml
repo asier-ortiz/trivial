@@ -1,0 +1,170 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.main.EndGameFragment">
+
+    <ScrollView
+        android:id="@+id/loginSV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/mp_xl"
+            android:paddingBottom="@dimen/mp_xl">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/mp_xl"
+                        android:layout_marginEnd="@dimen/mp_xl"
+                        android:gravity="center"
+                        android:text="@string/result_1"
+                        android:textColor="@color/colorBlackLight"
+                        android:textSize="@dimen/text_xxl" />
+
+                    <TextView
+                        android:id="@+id/scoreTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/mp_xl"
+                        android:layout_marginEnd="@dimen/mp_xl"
+                        android:gravity="center"
+                        android:text="10000"
+                        android:textColor="@color/colorBlackLight"
+                        android:textSize="@dimen/text_xxl"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/mp_xl"
+                        android:layout_marginTop="@dimen/mp_xl"
+                        android:layout_marginEnd="@dimen/mp_xl"
+                        android:gravity="center"
+                        android:text="@string/result_2"
+                        android:textColor="@color/colorBlackLight"
+                        android:textSize="@dimen/text_xxl" />
+
+                    <TextView
+                        android:id="@+id/rankingTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/mp_xl"
+                        android:layout_marginEnd="@dimen/mp_xl"
+                        android:layout_marginBottom="@dimen/mp_xxl"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/colorBlackLight"
+                        android:textSize="@dimen/text_xxl"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <ImageView
+                        android:id="@+id/medalIV"
+                        android:layout_width="@dimen/image_weight_xxxl"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/mp_xxl"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/gold"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/nameTIL"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:boxBackgroundColor="@color/colorWhite"
+                        app:boxCornerRadiusBottomEnd="0dp"
+                        app:boxCornerRadiusBottomStart="0dp"
+                        app:boxCornerRadiusTopEnd="0dp"
+                        app:boxCornerRadiusTopStart="@dimen/mp_m"
+                        app:boxStrokeColor="@color/input_field_selector"
+                        app:boxStrokeWidth="@dimen/mp_xxs"
+                        app:errorEnabled="true"
+                        app:errorTextColor="@color/colorRed"
+                        app:hintAnimationEnabled="false"
+                        app:hintTextColor="@color/colorGrey"
+                        app:startIconDrawable="@drawable/ic_edit"
+                        app:startIconTint="@color/colorGrey">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/nameET"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/name"
+                            android:imeOptions="actionDone"
+                            android:inputType="textCapWords"
+                            android:selectAllOnFocus="true"
+                            android:textColor="@color/colorBlackLight"
+                            android:textSize="@dimen/text_sm" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <ImageButton
+                        android:id="@+id/nameIB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_corner_accent"
+                        android:padding="@dimen/mp_m"
+                        android:tint="@color/button_tint_selector"
+                        app:srcCompat="@drawable/ic_check"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <nl.dionsegijn.konfetti.KonfettiView
+        android:id="@+id/viewKonfetti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

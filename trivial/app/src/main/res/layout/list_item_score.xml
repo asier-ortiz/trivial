@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/mp_s">
+
+        <TextView
+            android:id="@+id/positionTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/mp_m"
+            android:text="1."
+            android:textColor="@color/colorBlackLight"
+            android:textSize="@dimen/text_l"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="@dimen/mp_xl"
+            android:paddingEnd="@dimen/mp_xl"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:text="Nombre"
+            android:textColor="@color/colorBlackLight"
+            android:textSize="@dimen/text_l"
+            android:textStyle="normal"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/medalIV"
+            android:layout_width="@dimen/mp_xxl"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gold"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/scoreTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/mp_m"
+            android:text="10000"
+            android:textColor="@color/colorBlackLight"
+            android:textSize="@dimen/text_l"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</FrameLayout>
+
+

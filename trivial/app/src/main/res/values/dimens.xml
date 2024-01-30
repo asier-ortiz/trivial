@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="mp_xxs">2dp</dimen>
+    <dimen name="mp_xs">3dp</dimen>
+    <dimen name="mp_s">5dp</dimen>
+    <dimen name="mp_m">8dp</dimen>
+    <dimen name="mp_ml">11dp</dimen>
+    <dimen name="mp_l">15dp</dimen>
+    <dimen name="mp_xl">18dp</dimen>
+    <dimen name="mp_xxl">35dp</dimen>
+    <dimen name="mp_xxxl">110dp</dimen>
+
+    <dimen name="text_xxxs">9sp</dimen>
+    <dimen name="text_xxs">11sp</dimen>
+    <dimen name="text_xs">12sp</dimen>
+    <dimen name="text_s">14sp</dimen>
+    <dimen name="text_sm">16sp</dimen>
+    <dimen name="text_m">18sp</dimen>
+    <dimen name="text_l">20sp</dimen>
+    <dimen name="text_xl">22sp</dimen>
+    <dimen name="text_xxl">26sp</dimen>
+    <dimen name="text_xxxl">30sp</dimen>
+    <dimen name="text_xxxxl">70sp</dimen>
+
+    <dimen name="image_weight_xs">12dp</dimen>
+    <dimen name="image_weight_s">20dp</dimen>
+    <dimen name="image_weight_ss">25dp</dimen>
+    <dimen name="image_weight_m">35dp</dimen>
+    <dimen name="image_weight_l">50dp</dimen>
+    <dimen name="image_weight_xl">55dp</dimen>
+    <dimen name="image_weight_xxl">65dp</dimen>
+    <dimen name="image_weight_xxxl">80dp</dimen>
+    <dimen name="image_weight_xxxxl">150dp</dimen>
+
+</resources>

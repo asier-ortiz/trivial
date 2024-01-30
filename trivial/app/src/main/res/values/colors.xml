@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8E24AA</color>
+    <color name="colorPrimaryDark">#4A148C</color>
+    <color name="colorPrimaryLight">#F3E5F5</color>
+
+    <color name="colorAccent">#F9A825</color>
+    <color name="colorAccentLight">#FBC02D</color>
+    <color name="colorAccentLightest">#FFEE58</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackLight">#29292B</color>
+    <color name="colorBlackTransparent">#30000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGrey">#c6c6c6</color>
+    <color name="colorGreyDark">#585858</color>
+    <color name="colorGreyLight">#e8ecec</color>
+
+    <color name="colorRed">#FF8A80</color>
+    <color name="colorGreen">#B9F6CA</color>
+
+    <color name="colorGeography">#82B1FF</color>
+    <color name="colorEntertainment">#EA80FC</color>
+    <color name="colorHistory">#F4FF81</color>
+    <color name="colorArtAndLiterature">#FF8A80</color>
+    <color name="colorScienceAndNature">#CCFF90</color>
+    <color name="colorSportsAndHobbies">#FF9E80</color>
+
+    <color name="colorKontefetti1">#E53935</color>
+    <color name="colorKontefetti2">#039BE5</color>
+    <color name="colorKontefetti3">#43A047</color>
+    <color name="colorKontefetti4">#FDD835</color>
+
+</resources>

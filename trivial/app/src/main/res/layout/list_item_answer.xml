@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/mp_l"
+    android:background="@drawable/answer_background"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/list_item_ripple">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/mp_s">
+
+        <TextView
+            android:id="@+id/answerLetterTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/mp_xl"
+            android:text="A. "
+            android:textColor="@color/colorBlackLight"
+            android:textSize="@dimen/text_xxl"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/answerTV"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/mp_xl"
+            android:gravity="start|center_vertical"
+            android:text="bla bla bla bla bla bla bla bla bla bla bla bla"
+            android:textColor="@color/colorBlackLight"
+            android:textSize="@dimen/text_l"
+            android:textStyle="normal"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
