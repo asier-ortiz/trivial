@@ -6,8 +6,8 @@ If you accept the challenge and want to try the app you can directly download th
 
 ## Screenshots
 
-<img src="screenshots/screenshot-1.jpg" width="500"> <img src="screenshots/screenshot-2.jpg" width="500">
+<img src="screenshots/screenshot-1.jpg" width="300"> <img src="screenshots/screenshot-2.jpg" width="300">
 
-<img src="screenshots/screenshot-3.jpg" width="500"> <img src="screenshots/screenshot-4.jpg" width="500">
+<img src="screenshots/screenshot-3.jpg" width="300"> <img src="screenshots/screenshot-4.jpg" width="300">
 
-<img src="screenshots/screenshot-5.jpg" width="500">
+<img src="screenshots/screenshot-5.jpg" width="300">
